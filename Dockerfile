@@ -1,4 +1,4 @@
-FROM linuxserver/baseimage-kasmvnc:latest
+FROM ghcr.io/linuxserver/baseimage-kasmvnc:latest
 
 # Install latest Wine (>=10) from official WineHQ repositories
 RUN dpkg --add-architecture i386 && \
